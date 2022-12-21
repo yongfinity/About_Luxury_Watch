@@ -1,0 +1,927 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    user-select: none;
+}
+
+
+/*----------------------------------------*/
+/*   메뉴   */
+.menuBar{
+    position: fixed; z-index: 2;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    display: flex;
+    background: #161616;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+
+
+/*   메뉴 왼쪽 상단 로고   */
+.logo{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #D5AB85;
+}
+.logo a{
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 29px;
+    letter-spacing: 1rem;
+}
+
+/*   메뉴 항목   */
+.items{
+    display: flex;
+    list-style: none;
+}
+.items li{
+    padding: 10px 40px;
+    text-align: right;
+}
+.items li a{
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 29px;
+    letter-spacing: 0.33rem;
+    color: #D5AB85;
+}
+.items li:hover{
+    background-color: #2b2b2b;
+}
+#toggleBtn{
+    position: absolute;
+    right: 30px;
+    display: none;
+    top: 35px;
+}
+/*----------------------------------------*/
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #222222;
+}
+
+/*----------------------------------------*/
+
+
+#watch01{
+    height: 100vh;
+    background-image: url(imgs/Omega-Watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*  7:5   */
+#watch02{
+    height: 100vh;
+    background-image: url(imgs/secondPage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#watch03{
+    height: 100vh;
+    width: 90%;
+    margin-top: 50px;
+
+    background-image: url(imgs/automatic_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#watch04{
+    height: 100vh;
+    background-image: url(imgs/complication.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90%;
+}
+
+#watch05{
+    height: 100vh;
+
+    background-image: url(imgs/tourbillon.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-position: center;
+}
+
+#watch06{
+    height: 100vh;
+    padding-top: 150px;
+
+    background-image: url(imgs/minute_repeater.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-position: center;
+}
+
+#watch07{
+    height: 100vh;
+
+    background-image: url(imgs/Perpetual_calender.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+
+#watch08{
+    height: 100vh;
+    padding-top: 50px;
+
+    background-image: url(imgs/split_01.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-position: center;
+}
+
+#watch09{
+    height: 100vh;
+    padding-top: 50px;
+
+    background-image: url(imgs/split_02.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-position: center;
+}
+
+#watch10{
+    height: 100vh;
+    width: 33%;
+
+    background-image: url(imgs/final_1.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+
+#watch11{
+    height: 100vh;
+    width: 33%;
+
+    background-image: url(imgs/final_2.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+
+#watch12{
+    height: 100vh;
+    width: 33%;
+
+    background-image: url(imgs/final_3.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+
+
+#main h1{
+    display: flex;
+    font-weight: 300;
+    font-size: 8rem;
+    line-height: 10rem;
+    letter-spacing: 3.5rem;
+
+    padding-top: 300px;
+    align-items: center;
+    justify-content: right;
+
+    color: #D5AB85;
+}
+
+#text6 h2{
+    display: flex;
+    font-weight: 200;
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: 0.1rem;
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 200px;
+
+    color: #D5AB85;
+}
+
+#text6 p{
+    display: flex;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    color: white;
+}
+
+#text12 h2{
+    display: flex;
+    font-weight: 200;
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: 0.1rem;
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 535px;
+
+    color: #D5AB85;
+}
+
+#text12 p{
+    display: flex;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    color: white;
+}
+
+#text12 h1{
+    display: flex;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    color: #D5AB85;
+}
+
+
+#text66 h2{
+    display: flex;
+    font-weight: 300;
+    font-size: 6rem;
+    line-height: 7rem;
+    letter-spacing: 0.1rem;
+
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 50px;
+
+    color: #D5AB85;
+}
+
+#text66 p{
+    display: flex;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    color: white;
+}
+
+#text75 h2{
+    display: flex;
+    font-weight: 200;
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: 0.1rem;
+
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    color: #D5AB85;
+}
+
+/*   automatic principle  */
+#text75 h22{
+    display: flex;
+    font-weight: 200;
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: 0.1rem;
+
+    padding-top: 100px;
+
+    color: #D5AB85;
+}
+
+
+#text75 h3{
+    display: flex;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+
+    padding-left: 100px;
+    padding-right: 100px;
+
+    color: white
+}
+
+/*   complication 가운데 정렬  */
+#text75 h4{
+    display: flex;
+    font-weight: 200;
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    color: #D5AB85;
+}
+
+
+#text75 p{
+    display: flex;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    color: white;
+}
+
+/*   automatic 패딩때문에 조정  */
+#text75 p1{
+    display: flex;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 100px;
+
+    color: white;
+}
+
+/*   complication 가운데 정렬  */
+#text75 p2{
+    display: flex;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.01rem;
+    text-align: center;
+
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    color: white;
+}
+
+
+/*----------------------------------------*/
+
+#alignCenter{
+    justify-content: center;
+    align-items: center;
+}
+
+#watch-video{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container{
+    width: 100vw;
+    margin: auto;
+    background-color: #222222;
+}
+
+#complicationBox{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+}
+
+#footer{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+
+    display: flex;
+    background-color: #161616;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+#footer p{
+    color: #D5AB85;
+    text-align: center;
+
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
+}
+
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+/* 공간 */
+.col-1{width: 8.33%; background-color: #222222;}
+.col-2{width: 16.66%; background-color: #222222;}
+.col-3{width: 24.99%; background-color: #222222;}
+.col-4{width: 33.33%; background-color: #222222;}
+.col-5{width: 41.66%; background-color: #222222;}
+.col-6{width: 50%; background-color: #222222;}
+.col-7{width: 58.33%; background-color: #222222; }
+.col-8{width: 66.66%; background-color: #222222; }
+.col-9{width: 74.99%; background-color: #222222;}
+.col-10{width: 83.3%; background-color: #222222;}
+.col-11{width: 91.66%; background-color: #222222;}
+.col-12{width: 100%; background-color: #222222;}
+
+/* 높이 */
+
+.h-600{height: 600px;}
+.h-940{height: 940px;}
+
+.text-white{color: white;}
+.text-black{color: black;}
+.text-gold{color: #D5AB85;}
+
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+
+.align-center{justify-content: center; align-items: center; display: flex;}
+.align-right{justify-content: right; align-items: center; display: flex;}
+
+/* 이미지 */
+.img-fit{width: fit-content;}
+.img-center-fit{
+    align-items: center;
+
+    display: flex;
+}
+
+@media only screen and (max-width: 768px)
+{
+
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo a{
+        font-weight: 300;
+        font-size: 2rem;
+        line-height: 29px;
+        letter-spacing: 1rem;
+        padding: 10px 30px;
+    }
+    
+    .menuBar{
+        flex-direction: column;
+        /* 왼쪽으로 붙어보이기 위해 함 */
+        align-items: flex-start;
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    /* 아래로 정렬하게 만들기 */
+    .items{
+        /* 햄버거 버튼을 누르면 나오게 하려고 display none 함 */
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 20px;
+        display: none;
+    }
+
+    /* 마우스 올리는 메뉴바의 크기 길게 */
+    .items li{
+        width: 100%;
+        text-align: center;
+    }
+
+    #toggleBtn{
+        display: block;
+    }
+    
+    /*  .items.active */
+    .items.active{
+        display: flex;
+    }
+
+    #container{
+        width: 100%;
+        margin: auto;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* 공간 */
+    .col-1{width: 100%; background-color: #222222;}
+    .col-2{width: 100%; background-color: #222222;}
+    .col-3{width: 100%; background-color: #222222;}
+    .col-4{width: 100%; background-color: #222222;}
+    .col-5{width: 100%; background-color: #222222;}
+    .col-6{width: 100%; background-color: #222222;}
+    .col-7{width: 100%; background-color: #222222; }
+    .col-8{width: 100%; background-color: #222222; }
+    .col-9{width: 100%; background-color: #222222;}
+    .col-10{width: 100%; background-color: #222222;}
+    .col-11{width: 100%; background-color: #222222;}
+    .col-12{width: 100%; background-color: #222222;}
+
+
+    #watch01{
+        height: 100vh;
+        background-image: url(imgs/Omega-Watch.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #watch03{
+        height: 64vh;
+        width: 90%;
+
+        background-image: url(imgs/automatic_2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #watch04{
+        height: 100vh;
+        background-image: url(imgs/complication.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+    }
+    
+    #watch05{
+        height: 100vh;
+        width: 90%;
+
+        background-image: url(imgs/tourbillon_2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    #watch06{
+        height: 80vh;
+        width: 90%;
+    
+        background-image: url(imgs/minute_repeater_2.png);
+        background-repeat: no-repeat;
+        background-size: contain ;
+    }
+    
+    #watch07{
+        height: 100vh;
+    
+        background-image: url(imgs/perpetual_calender_2.png);
+        background-repeat: no-repeat;
+        background-size: contain ;
+    }
+
+    #watch08{
+        height: 100vh;
+        width: 50%;
+        padding-top: 50px;
+    
+        background-image: url(imgs/split_01.png);
+        background-repeat: no-repeat;
+        background-size: contain ;
+        background-position: left;
+        display: none;
+    }
+    
+    #watch09{
+        height: 100vh;
+        width: 50%;
+        padding-top: 50px;
+    
+        background-image: url(imgs/split_02.png);
+        background-repeat: no-repeat;
+        background-size: contain ;
+        background-position: left;
+        display: none;
+    }
+    
+    #watch10{
+        width: 33%;
+        background-image: url(imgs/final_1.png);
+        background-repeat: no-repeat;
+        background-size: contain ;
+        background-position: center;
+        display: none;
+    }
+
+    #watch11{
+        width: 33%;
+        background-image: url(imgs/final_2.png);
+        background-repeat: no-repeat;
+        background-size: contain ;
+        background-position: center;
+        display: none;
+    }
+
+    #watch12{
+        width: 33%;
+        background-image: url(imgs/final_3.png);
+        background-repeat: no-repeat;
+        background-size: contain ;
+        background-position: center;
+        display: none;
+    }
+
+    #main h1{
+        display: flex;
+        font-weight: 300;
+        font-size: 5rem;
+        line-height: 8rem;
+        letter-spacing: 3rem;
+    
+        padding-top: 300px;
+        align-items: center;
+        justify-content: center;
+    
+        color: #D5AB85;
+    }
+    
+
+    
+    .align-right{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #text6 h2{
+        display: flex;
+        font-weight: 200;
+        font-size: 5rem;
+        line-height: 7rem;
+        letter-spacing: 0.1rem;
+    
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 100px;
+    
+        color: #D5AB85;
+    }
+    
+    #text6 p{
+        display: flex;
+        font-weight: 300;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        letter-spacing: 0.1rem;
+    
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    
+        color: white;
+    }
+    
+
+    #text12 h2{
+        display: flex;
+        font-weight: 200;
+        font-size: 5rem;
+        line-height: 7rem;
+        letter-spacing: 0.1rem;
+    
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 400px;
+    
+        color: #D5AB85;
+    }
+    
+    #text12 p{
+        display: flex;
+        font-weight: 300;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        letter-spacing: 0.1rem;
+    
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    
+        color: white;
+    }
+    
+
+    #text12 h1{
+        display: flex;
+        font-weight: 300;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.1rem;
+
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+        color: #D5AB85;
+    }
+
+
+    #text66 h2{
+        display: flex;
+        font-weight: 200;
+        font-size: 6rem;
+        line-height: 7rem;
+        letter-spacing: 0.1rem;
+    
+        padding-top: 150px;
+        padding-left: 50px;
+        padding-right: 100px;
+    
+        color: #D5AB85;
+    }
+
+    #text66 p{
+    display: flex;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 250px;
+
+    color: white;
+}
+
+
+
+
+    #text75 h2{
+        display: flex;
+        font-weight: 200;
+        font-size: 5rem;
+        line-height: 5rem;
+        letter-spacing: 0.1rem;
+    
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 100px;
+    
+        color: #D5AB85;
+    }
+
+
+    /*   automatic principle  */
+    #text75 h22{
+        display: flex;
+        font-weight: 200;
+        font-size: 5rem;
+        line-height: 5rem;
+        letter-spacing: 0.1rem;
+
+        padding-top: 150px;
+
+        color: #D5AB85;
+    }
+
+    /*   complication 가운데 정렬  */
+    #text75 h4{
+        display: flex;
+        font-weight: 200;
+        font-size: 5rem;
+        line-height: 5rem;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        justify-content: center;
+
+        color: #D5AB85;
+    }
+
+
+
+    #text75 p{
+        display: flex;
+        font-weight: 300;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        letter-spacing: 0.1rem;
+
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 100px;
+        padding-bottom: 300px;
+
+        color: white;
+    }
+
+    /*   automatic 패딩때문에 조정  */
+    #text75 p1{
+        display: flex;
+        font-weight: 300;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        letter-spacing: 0.1rem;
+
+        padding-top: 0px;
+        padding-bottom: 200px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+        color: white;
+    }
+
+    /*   complication 가운데 정렬  */
+    #text75 p2{
+        display: flex;
+        font-weight: 300;
+        font-size: 2rem;
+        line-height: 3rem;
+        letter-spacing: 0.01rem;
+        text-align: center;
+
+        justify-content: center;
+
+
+
+        color: white;
+    }
+
+
+    #footer{
+        position: absolute;
+        left: 0px;
+        right: 0px;
+    
+        display: flex;
+        background-color: #161616;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 30px;
+        display: none;
+    }
+    
+    #footer p{
+        color: #D5AB85;
+        text-align: center;
+    
+        font-weight: 300;
+        font-size: 1.3rem;
+        line-height: 2rem;
+        letter-spacing: 0.05rem;
+        display: none;
+    }
+    
+    
+
+    
+    
+}
